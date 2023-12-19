@@ -1,10 +1,10 @@
-# browningluke Taps
+# browningluke Tap
 
 ## How do I install these formulae?
 
-`brew install browningluke/taps/<formula>`
+`brew install browningluke/tap/<formula>`
 
-Or `brew tap browningluke/taps` and then `brew install <formula>`.
+Or `brew tap browningluke/tap` and then `brew install <formula>`.
 
 ## Documentation
 
