@@ -1,5 +1,5 @@
 class Mangathr < Formula
-  desc "📦 A terminal utility for downloading manga - written in Go - with support for MangaDex & Cubari."
+  desc "A terminal utility for downloading manga with support for MangaDex & Cubari."
   homepage "https://github.com/browningluke/mangathr"
   url "https://github.com/browningluke/mangathr.git",
     tag: "v2.2.0",
