@@ -3,7 +3,7 @@ class Mangathr < Formula
   homepage "https://github.com/browningluke/mangathr"
   url "https://github.com/browningluke/mangathr.git",
       tag:      "v2.3.0",
-      revision: "48cded7ef3badd8b8b9d7eed4410a4704404d7b5"
+      revision: "7eceb84c2090f9428d367cd4258278520d37f6a7"
   license "MIT"
   head "https://github.com/browningluke/mangathr.git", branch: "main"
 
