@@ -7,9 +7,9 @@ class Mangathr < Formula
   license "MIT"
   head "https://github.com/browningluke/mangathr.git", branch: "main"
 
+  depends_on "git" => :build
   depends_on "go" => :build
   depends_on "make" => :build
-  depends_on "git" => :build
 
   def install
     system "make"
