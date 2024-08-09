@@ -8,9 +8,11 @@ class Mangathr < Formula
   head "https://github.com/browningluke/mangathr.git", branch: "main"
 
   depends_on "go" => :build
+  depends_on "make" => :build
+  depends_on "git" => :build
 
   def install
-    system "go", "build", "-o", "bin/mangathr", "./cmd/mangathr"
+    system "make"
     bin.install "bin/mangathr"
 
     generate_completions_from_executable(bin/"mangathr", "completion")
