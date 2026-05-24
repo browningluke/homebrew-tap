@@ -2,8 +2,8 @@ class Mangathr < Formula
   desc "Terminal utility for downloading manga with support for MangaDex & Cubari"
   homepage "https://github.com/browningluke/mangathr"
   url "https://github.com/browningluke/mangathr.git",
-      tag:      "v2.4.0",
-      revision: "f021dd0dae713261df89af72aff3598c367fe411"
+      tag:      "v2.7.0",
+      revision: "f3aab485ad65825a516727c5ae719e166048f044"
   license "MIT"
   head "https://github.com/browningluke/mangathr.git", branch: "main"
 
